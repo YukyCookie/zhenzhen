@@ -987,7 +987,7 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
-                    window.location.href = "https://weibo.com/u/5622416838" // 结束界面左边连接
+                    window.location.href = "https://www.douban.com/group/topic/211103413/?dt_dapp=1" // 结束界面左边连接
                 }, t.prototype.bannerButtonFunc = function() {
                     window.location.href = "" // 奖杯按钮
                 }, t.prototype.ShowFailedUi = function(e, t) {
@@ -1007,7 +1007,7 @@ window.__require = function e(t, n, o) {
                     this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
                 }, t.prototype.OnClickMoreGame = function() {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function() {
-                        window.location.href = "https://weibo.com/u/5622416838" // 右上角连接
+                        window.location.href = "https://weibo.com/u/5622416838" // 主页连接
                     }, .15))
                 }, t.prototype.GetContentByScore = function(e) {
                     var t = Math.ceil(e / 1500 * 94);
